@@ -1,0 +1,148 @@
+[2023-06-26 15:32:00.878362] [0x00007ff8541e24c0] [info]  anysign for pc start
+[2023-06-26 15:32:00.878676] [0x00007ff8541e24c0] [info]  privilege infomation : minjujeong
+[2023-06-26 15:32:00.989532] [0x00007ff8541e24c0] [info]  anysign.no_tls_webcrypto_server : no tls / webcrypto socket
+[2023-06-26 15:32:00.990102] [0x00007ff8541e24c0] [info]  dynamic assign no tls port : 55005
+[2023-06-26 15:32:00.990216] [0x00007ff8541e24c0] [info]  anysign.tls_server : tls socket
+[2023-06-26 15:32:00.994476] [0x00007ff8541e24c0] [info]  dynamic assign tls port : 55006
+[2023-06-26 15:32:01.374926] [0x000070000b12c000] [info]  error getting remote endpoint: system:22 (Invalid argument)
+[2023-06-26 15:32:01.374893] [0x000070000b12c000] [info]  handle_accept. remote info : unknown
+[2023-06-26 15:32:01.375040] [0x000070000b12c000] [info]  websocket handshake complete measurement point
+[2023-06-26 15:32:01.375097] [0x000070000b026000] [info]  websocket.transfer.endpoint.handle_accepterror : 00000022, message : Invalid argument
+[2023-06-26 15:32:01.375216] [0x000070000b026000] [info]  handle_async_shutdown error : 00000009, message : Bad file descriptor
+[2023-06-26 15:32:01.375265] [0x000070000b026000] [info]  websocket.connection.handle_terminate error : 00000006, message : pass through from socket policy
+[2023-06-26 15:32:01.375306] [0x000070000b026000] [info]  anysign.base_server.handle_fail
+[2023-06-26 15:32:01.375333] [0x000070000b026000] [info]  handle_accept error : 00000003, message : underlying transport error
+[2023-06-26 15:32:02.429914] [0x000070000b12c000] [info]  handle_accept. remote info : 127.0.0.1:54701
+[2023-06-26 15:32:02.430002] [0x000070000b12c000] [info]  websocket handshake complete measurement point
+[2023-06-26 15:32:02.444394] [0x000070000b12c000] [info]  websocket handshake complete elapsed time : 14 ms
+[2023-06-26 15:32:02.444464] [0x000070000b12c000] [info]  anysign.base_server native origin : www.ei.go.kr
+[2023-06-26 15:32:02.444485] [0x000070000b12c000] [info]  anysign.base_server.handle_open index : 1, remote info : 127.0.0.1:54701
+[2023-06-26 15:32:02.445742] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2023-06-26 15:32:02.445816] [0x000070000b12c000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 5591
+[2023-06-26 15:32:02.446325] [0x000070000b12c000] [info]  anysign.base_server.native_create_by_websession native create (session:www.ei.go.kr,id:1,ref:1)
+[2023-06-26 15:32:02.446405] [0x000070000b12c000] [info]  native_check_version measurement point
+[2023-06-26 15:32:02.446446] [0x000070000b12c000] [info]  native_check_version ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:02.446523] [0x000070000b12c000] [info]  native_put_license_n measurement point
+[2023-06-26 15:32:02.451263] [0x000070000b12c000] [info]  native_put_license_n ret : 00000000, elapsed time : 4 ms
+[2023-06-26 15:32:02.451315] [0x000070000b12c000] [info]  native_put_storage_n measurement point
+[2023-06-26 15:32:02.451349] [0x000070000b12c000] [info]  native_put_storage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:02.451376] [0x000070000b12c000] [info]  native_put_language_n measurement point
+[2023-06-26 15:32:02.452109] [0x000070000b12c000] [info]  native_put_language_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:02.452177] [0x000070000b12c000] [info]  native_put_char_set_n measurement point
+[2023-06-26 15:32:02.452249] [0x000070000b12c000] [info]  native_put_char_set_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:02.452290] [0x000070000b12c000] [info]  native_put_proxy_usage_n measurement point
+[2023-06-26 15:32:02.452328] [0x000070000b12c000] [info]  native_put_proxy_usage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:02.452363] [0x000070000b12c000] [info]  native_put_transkey_n measurement point
+[2023-06-26 15:32:02.452400] [0x000070000b12c000] [info]  native_put_transkey_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:06.375257] [0x000070000b12c000] [info]  transport.connection.handle_init_timeout
+[2023-06-26 15:32:06.375381] [0x000070000b12c000] [fatal]  websocket.connection.handle_transport_init error : 00000008, message : tls handshake failed
+[2023-06-26 15:32:06.375487] [0x000070000b12c000] [info]  anysign.base_server.handle_fail
+[2023-06-26 15:32:06.375576] [0x000070000b12c000] [info]  websocket handshake complete elapsed time : 5000 ms
+[2023-06-26 15:32:16.660712] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000008
+[2023-06-26 15:32:16.660858] [0x000070000b12c000] [error]  websocket.connection.handle_read_frame error : 00000011, message : tls short read
+[2023-06-26 15:32:16.661007] [0x000070000b12c000] [info]  transport.connection.handle_async_write error : 336396495, message : protocol is shutdown
+[2023-06-26 15:32:16.661085] [0x000070000b12c000] [fatal]  websocket.connection.handle_write_frame error : 00000003, message : underlying transport error
+[2023-06-26 15:32:16.661141] [0x000070000b12c000] [info]  handle_async_shutdown error : 00000054, message : Connection reset by peer
+[2023-06-26 15:32:16.661181] [0x000070000b12c000] [info]  websocket.connection.handle_terminate error : 00000003, message : underlying transport error
+[2023-06-26 15:32:16.661221] [0x000070000b12c000] [info]  anysign.base_server.handle_close. session id : 1, session ref : 0
+[2023-06-26 15:32:16.661267] [0x000070000b12c000] [info]  native delete measurement point
+[2023-06-26 15:32:16.661306] [0x000070000b12c000] [info]  native delete elapsed time : 0 ms
+[2023-06-26 15:32:16.661323] [0x000070000b12c000] [info]  anysign.base_server.handle_close. index : 1, remote info : 127.0.0.1:54701
+[2023-06-26 15:32:17.973943] [0x000070000b12c000] [info]  handle_accept. remote info : 127.0.0.1:54782
+[2023-06-26 15:32:17.974029] [0x000070000b12c000] [info]  websocket handshake complete measurement point
+[2023-06-26 15:32:17.990192] [0x000070000b12c000] [info]  websocket handshake complete elapsed time : 16 ms
+[2023-06-26 15:32:17.990262] [0x000070000b12c000] [info]  anysign.base_server native origin : www.ei.go.kr
+[2023-06-26 15:32:17.990291] [0x000070000b12c000] [info]  anysign.base_server.handle_open index : 1, remote info : 127.0.0.1:54782
+[2023-06-26 15:32:17.991899] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2023-06-26 15:32:17.991952] [0x000070000b12c000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 5591
+[2023-06-26 15:32:17.992431] [0x000070000b12c000] [info]  anysign.base_server.native_create_by_websession native create (session:www.ei.go.kr,id:1,ref:1)
+[2023-06-26 15:32:17.992471] [0x000070000b12c000] [info]  native_check_version measurement point
+[2023-06-26 15:32:17.992496] [0x000070000b12c000] [info]  native_check_version ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:17.992527] [0x000070000b12c000] [info]  native_put_license_n measurement point
+[2023-06-26 15:32:17.996533] [0x000070000b12c000] [info]  native_put_license_n ret : 00000000, elapsed time : 4 ms
+[2023-06-26 15:32:17.996588] [0x000070000b12c000] [info]  native_put_storage_n measurement point
+[2023-06-26 15:32:17.996623] [0x000070000b12c000] [info]  native_put_storage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:17.996655] [0x000070000b12c000] [info]  native_put_language_n measurement point
+[2023-06-26 15:32:17.997016] [0x000070000b12c000] [info]  native_put_language_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:17.997061] [0x000070000b12c000] [info]  native_put_char_set_n measurement point
+[2023-06-26 15:32:17.997095] [0x000070000b12c000] [info]  native_put_char_set_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:17.997126] [0x000070000b12c000] [info]  native_put_proxy_usage_n measurement point
+[2023-06-26 15:32:17.997157] [0x000070000b12c000] [info]  native_put_proxy_usage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:17.997186] [0x000070000b12c000] [info]  native_put_transkey_n measurement point
+[2023-06-26 15:32:17.997219] [0x000070000b12c000] [info]  native_put_transkey_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:21.109331] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000008
+[2023-06-26 15:32:21.109465] [0x000070000b12c000] [error]  websocket.connection.handle_read_frame error : 00000011, message : tls short read
+[2023-06-26 15:32:21.109592] [0x000070000b12c000] [info]  transport.connection.handle_async_write error : 336396495, message : protocol is shutdown
+[2023-06-26 15:32:21.109649] [0x000070000b12c000] [fatal]  websocket.connection.handle_write_frame error : 00000003, message : underlying transport error
+[2023-06-26 15:32:21.109701] [0x000070000b12c000] [info]  handle_async_shutdown error : 00000054, message : Connection reset by peer
+[2023-06-26 15:32:21.109723] [0x000070000b12c000] [info]  websocket.connection.handle_terminate error : 00000003, message : underlying transport error
+[2023-06-26 15:32:21.109747] [0x000070000b12c000] [info]  anysign.base_server.handle_close. session id : 1, session ref : 0
+[2023-06-26 15:32:21.109770] [0x000070000b12c000] [info]  native delete measurement point
+[2023-06-26 15:32:21.109789] [0x000070000b12c000] [info]  native delete elapsed time : 0 ms
+[2023-06-26 15:32:21.109811] [0x000070000b12c000] [info]  anysign.base_server.handle_close. index : 1, remote info : 127.0.0.1:54782
+[2023-06-26 15:32:22.277060] [0x000070000b12c000] [info]  handle_accept. remote info : 127.0.0.1:54810
+[2023-06-26 15:32:22.277131] [0x000070000b12c000] [info]  websocket handshake complete measurement point
+[2023-06-26 15:32:22.294270] [0x000070000b12c000] [info]  websocket handshake complete elapsed time : 17 ms
+[2023-06-26 15:32:22.294327] [0x000070000b12c000] [info]  anysign.base_server native origin : www.ei.go.kr
+[2023-06-26 15:32:22.294350] [0x000070000b12c000] [info]  anysign.base_server.handle_open index : 1, remote info : 127.0.0.1:54810
+[2023-06-26 15:32:22.295929] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2023-06-26 15:32:22.295984] [0x000070000b12c000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 5591
+[2023-06-26 15:32:22.296421] [0x000070000b12c000] [info]  anysign.base_server.native_create_by_websession native create (session:www.ei.go.kr,id:1,ref:1)
+[2023-06-26 15:32:22.296460] [0x000070000b12c000] [info]  native_check_version measurement point
+[2023-06-26 15:32:22.296484] [0x000070000b12c000] [info]  native_check_version ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:22.296517] [0x000070000b12c000] [info]  native_put_license_n measurement point
+[2023-06-26 15:32:22.300464] [0x000070000b12c000] [info]  native_put_license_n ret : 00000000, elapsed time : 3 ms
+[2023-06-26 15:32:22.300507] [0x000070000b12c000] [info]  native_put_storage_n measurement point
+[2023-06-26 15:32:22.300536] [0x000070000b12c000] [info]  native_put_storage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:22.300560] [0x000070000b12c000] [info]  native_put_language_n measurement point
+[2023-06-26 15:32:22.300863] [0x000070000b12c000] [info]  native_put_language_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:22.300898] [0x000070000b12c000] [info]  native_put_char_set_n measurement point
+[2023-06-26 15:32:22.300926] [0x000070000b12c000] [info]  native_put_char_set_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:22.300950] [0x000070000b12c000] [info]  native_put_proxy_usage_n measurement point
+[2023-06-26 15:32:22.300974] [0x000070000b12c000] [info]  native_put_proxy_usage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:22.300997] [0x000070000b12c000] [info]  native_put_transkey_n measurement point
+[2023-06-26 15:32:22.301021] [0x000070000b12c000] [info]  native_put_transkey_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:39.281245] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000008
+[2023-06-26 15:32:39.281600] [0x000070000b12c000] [error]  websocket.connection.handle_read_frame error : 00000011, message : tls short read
+[2023-06-26 15:32:39.281936] [0x000070000b12c000] [info]  transport.connection.handle_async_write error : 336396495, message : protocol is shutdown
+[2023-06-26 15:32:39.281965] [0x000070000b12c000] [fatal]  websocket.connection.handle_write_frame error : 00000003, message : underlying transport error
+[2023-06-26 15:32:39.282021] [0x000070000b12c000] [info]  handle_async_shutdown error : 00000054, message : Connection reset by peer
+[2023-06-26 15:32:39.282051] [0x000070000b12c000] [info]  websocket.connection.handle_terminate error : 00000003, message : underlying transport error
+[2023-06-26 15:32:39.282076] [0x000070000b12c000] [info]  anysign.base_server.handle_close. session id : 1, session ref : 0
+[2023-06-26 15:32:39.282102] [0x000070000b12c000] [info]  native delete measurement point
+[2023-06-26 15:32:39.282117] [0x000070000b12c000] [info]  native delete elapsed time : 0 ms
+[2023-06-26 15:32:39.282130] [0x000070000b12c000] [info]  anysign.base_server.handle_close. index : 1, remote info : 127.0.0.1:54810
+[2023-06-26 15:32:47.540838] [0x000070000b12c000] [info]  handle_accept. remote info : 127.0.0.1:54946
+[2023-06-26 15:32:47.540915] [0x000070000b12c000] [info]  websocket handshake complete measurement point
+[2023-06-26 15:32:47.557042] [0x000070000b12c000] [info]  websocket handshake complete elapsed time : 16 ms
+[2023-06-26 15:32:47.557115] [0x000070000b12c000] [info]  anysign.base_server native origin : www.ei.go.kr
+[2023-06-26 15:32:47.557144] [0x000070000b12c000] [info]  anysign.base_server.handle_open index : 1, remote info : 127.0.0.1:54946
+[2023-06-26 15:32:47.559268] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000001
+[2023-06-26 15:32:47.559327] [0x000070000b12c000] [info]  anysign.base_server.jsonp_handle_input index : 1, data length : 5591
+[2023-06-26 15:32:47.559757] [0x000070000b12c000] [info]  anysign.base_server.native_create_by_websession native create (session:www.ei.go.kr,id:1,ref:1)
+[2023-06-26 15:32:47.559796] [0x000070000b12c000] [info]  native_check_version measurement point
+[2023-06-26 15:32:47.559822] [0x000070000b12c000] [info]  native_check_version ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:47.559855] [0x000070000b12c000] [info]  native_put_license_n measurement point
+[2023-06-26 15:32:47.563932] [0x000070000b12c000] [info]  native_put_license_n ret : 00000000, elapsed time : 4 ms
+[2023-06-26 15:32:47.563983] [0x000070000b12c000] [info]  native_put_storage_n measurement point
+[2023-06-26 15:32:47.564017] [0x000070000b12c000] [info]  native_put_storage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:47.564043] [0x000070000b12c000] [info]  native_put_language_n measurement point
+[2023-06-26 15:32:47.564462] [0x000070000b12c000] [info]  native_put_language_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:47.564506] [0x000070000b12c000] [info]  native_put_char_set_n measurement point
+[2023-06-26 15:32:47.564537] [0x000070000b12c000] [info]  native_put_char_set_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:47.564564] [0x000070000b12c000] [info]  native_put_proxy_usage_n measurement point
+[2023-06-26 15:32:47.564590] [0x000070000b12c000] [info]  native_put_proxy_usage_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:47.564614] [0x000070000b12c000] [info]  native_put_transkey_n measurement point
+[2023-06-26 15:32:47.564639] [0x000070000b12c000] [info]  native_put_transkey_n ret : 00000000, elapsed time : 0 ms
+[2023-06-26 15:32:50.527413] [0x000070000b12c000] [info]  websocket.connection.handle_read_frame complete recv frame data. opcode : 00000008
+[2023-06-26 15:32:50.527676] [0x000070000b12c000] [error]  websocket.connection.handle_read_frame error : 00000011, message : tls short read
+[2023-06-26 15:32:50.527993] [0x000070000b12c000] [info]  transport.connection.handle_async_write error : 336396495, message : protocol is shutdown
+[2023-06-26 15:32:50.528046] [0x000070000b12c000] [fatal]  websocket.connection.handle_write_frame error : 00000003, message : underlying transport error
+[2023-06-26 15:32:50.528160] [0x000070000b12c000] [info]  handle_async_shutdown error : 00000054, message : Connection reset by peer
+[2023-06-26 15:32:50.528249] [0x000070000b12c000] [info]  websocket.connection.handle_terminate error : 00000003, message : underlying transport error
+[2023-06-26 15:32:50.528378] [0x000070000b12c000] [info]  anysign.base_server.handle_close. session id : 1, session ref : 0
+[2023-06-26 15:32:50.528477] [0x000070000b12c000] [info]  native delete measurement point
+[2023-06-26 15:32:50.528508] [0x000070000b12c000] [info]  native delete elapsed time : 0 ms
+[2023-06-26 15:32:50.528530] [0x000070000b12c000] [info]  anysign.base_server.handle_close. index : 1, remote info : 127.0.0.1:54946
+[2023-06-26 15:33:21.749708] [0x00007ff8541e24c0] [info]  anysign.shutdown_session_strategy : begin server shutdown
+[2023-06-26 15:33:21.749948] [0x00007ff8541e24c0] [info]  anysign for pc stop.

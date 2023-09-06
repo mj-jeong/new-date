@@ -1,0 +1,115 @@
+git config --global user.email "mmm0628@gmail.com"
+git config --global user.name "mj-jeong"
+git init
+git remote add origin https://github.com/mj-jeong/study-fe-react-prj.git
+git add .
+git commit -m "study-fe-react-prj" 
+git push
+git push --set-upstream origin main
+npm start
+git commit -m "study-fe-react rerendering" 
+git push
+git add .
+git commit -m "react12- stateLeftingup
+git commit -m "react12- stateLeftingup"
+git push
+git add .
+git commit -m "react13-fetchAPI" 
+git push
+git push --set-upstream origin react13-fetchAPI
+git push --set-upstream origin react12-stateLeftingup
+node --v
+node -v
+npm start
+npm start
+npm start
+npm install -D eslint
+npm audit fix --force
+npm start
+npm install
+npm start
+npm install -D prettier
+npm start
+npm start
+npm start
+npm start
+npm start
+npm install --save-dev eslint-config-prettier eslint-plugin-prettier
+npm start
+npm install
+npm audit fix --force
+npm start
+npm start
+npm start
+npm install
+npm start
+npm start
+npm start
+npm install
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm i
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+cd Desktop
+npx create-react-app study-fe-react-prj
+cd study2023
+npx create-react-app study-fe-react-prj
+npm cache clean --force
+npx create-react-app study-fe-react-prj
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm install moment
+npm install moment-timezone
+npm start
+git remote add origin https://github.com/mj-jeong/date2.git
+git remote remove origin
+git remote add origin https://github.com/mj-jeong/date2.git
+npm start
+npm i
+npm start
+git add .
