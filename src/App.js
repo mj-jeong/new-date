@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import MomentExample from './components/Moment/MomentExample';
 
 function App() {
   return (
     <div className="App">
-      <h1>테스트</h1>
+      <MomentExample/>
     </div>
   );
 }
